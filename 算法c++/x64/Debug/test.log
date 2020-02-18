@@ -1,0 +1,20 @@
+﻿  main.cpp
+d:\code\c\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\c\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\c\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\c\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\c\test\test\information.h(33): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+d:\code\c\test\test\main.cpp(25): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  GCApplication.cpp
+d:\code\c\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\c\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\c\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\c\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\code\c\test\test\information.h(33): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+d:\code\c\test\test\gcapplication.cpp(111): warning C4101: “maxX2”: 未引用的局部变量
+d:\code\c\test\test\gcapplication.cpp(111): warning C4101: “maxY1”: 未引用的局部变量
+d:\code\c\test\test\gcapplication.cpp(111): warning C4101: “maxX1”: 未引用的局部变量
+d:\code\c\test\test\gcapplication.cpp(111): warning C4101: “maxY2”: 未引用的局部变量
+  正在生成代码...
+  test.vcxproj -> D:\Code\C\test\x64\Debug\test.exe
+  test.vcxproj -> D:\Code\C\test\x64\Debug\test.pdb (Full PDB)
