@@ -1,0 +1,17 @@
+<scroll-view  class="table" scroll-y="true">
+  <view class="tr bg-w">
+    <view class="th">日期</view>
+    <view class="th" bindtap='sortName'>姓名</view>
+    <view class="th ">身高</view>
+  </view>
+  <block wx:for="{{items}}" wx:key="index">
+    <view class="tr {{item.isTouchMove ? 'touch-move-active' : ''}} {{index%2==0 ? 'bg-g':''}}"   bindtouchstart="touchstart" bindtouchmove="touchmove" data-index="{{index}}">
+    <view class='content'>
+      <view class="td">{{item.Date}}</view>
+      <view class="td">{{item.Name}}</view>
+      <view class="td">{{item.height}}</view>
+    </view>
+    <view class='del' catchtap="del" data-index="{{index}}">删除</view>
+    </view>
+  </block>
+</scroll-view>

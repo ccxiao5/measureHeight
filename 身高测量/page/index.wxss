@@ -1,0 +1,131 @@
+@import "./common/lib/weui.wxss";
+
+.camera {
+  position: fixed;
+  height: 100%;
+}
+.bottomTool{
+  height: 150rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: black;
+}
+.viewPhoto{
+
+  height: 100rpx;
+  width: 100rpx;
+  margin: 25rpx 0 25rpx 60rpx;
+}
+.return{
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  top:5px;
+  left:10px;
+}
+.cover-img{
+  position: relative;
+  height: 100rpx;
+  width: 100rpx;
+  top:-125rpx;
+  margin: 25rpx auto;
+}
+.input{
+  height: 32px;
+  line-height: 32px;
+  /* margin-top为text的高度，保持视觉上一致 */
+  margin-top: -32px; 
+}
+.text{
+  color: black;
+  height: 32px;
+  line-height: 32px;
+}
+.toast-box {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+ 
+.showToast {
+    position: absolute;
+    opacity: 1;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 40%;
+}
+ 
+.toast-title {
+    padding-left: 5%;
+    background-color: #d9edf7;
+    color: black;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+}
+ 
+.toast-main {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: white;
+    text-align: center;
+    border-bottom-right-radius: 35rpx;
+    border-bottom-left-radius: 35rpx;
+}
+ 
+.toast-input {
+  position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    border: 1px solid #ddd;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 15rpx;
+    line-height: 32px;
+}
+ 
+.toast-button {
+    display: flex;
+    margin-top: 5rpx;
+    margin-bottom: 12rpx;
+}
+ button{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 40rpx;
+
+ }
+.button1{
+    width: 40%;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+ 
+.button2{
+  width: 40%;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+ 
+.picker {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+

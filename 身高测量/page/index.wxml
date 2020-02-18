@@ -1,0 +1,37 @@
+<view class="index">
+  <camera class="camera">
+    <cover-image class='photoShow' src="{{src}}" hidden="{{hide}}"></cover-image>
+    <cover-image class="return" src="../image/return.png" hidden="{{hide}}" bindtap='returnClick'>
+    </cover-image>
+    <cover-view class='bottomTool' hidden="{{hide2}}">
+      <cover-image  class='viewPhoto' src="{{src}}"  bindtap='photoClick'></cover-image>
+      <cover-image class="cover-img" src="../image/camerabutton.png" bindtap="cameraClick">
+      </cover-image>
+    </cover-view>
+    <cover-view class='toast-box' hidden="{{!ifRef}}">
+        <cover-view class='showToast'>
+            <cover-view class='toast-title'>输入参照物信息和测量用户姓名</cover-view>         
+            <cover-view class='toast-main'>
+                <cover-view class='toast-input' bindtap='tapColorInput'>
+                  <cover-view class='text'>{{refColor}}</cover-view>
+                      <input class='input' value='{{refColor}}' focus='{{inputColorFocus}}' bindblur='setColorValue' >
+                      </input>
+                </cover-view>
+                <cover-view class='toast-input' bindtap='tapHeightInput'>
+                 <cover-view class='text'>{{refHeight}}</cover-view>
+                    <input  class='input' value='{{refHeight}}' focus='{{inputHeightFocus}}' bindblur='setHeightValue' ></input>
+                </cover-view>
+                 <cover-view class='toast-input' bindtap='tapNameInput'>
+                 <cover-view class='text'>{{measureName}}</cover-view>
+                    <input  class='input' value='{{measureName}}' focus='{{inputNameFocus}}' bindblur='setNameValue' ></input>
+                </cover-view>
+            <cover-view class='toast-button'>
+                  <button class='button1'catchtap='cancel'>取消</button>
+                  <button class='button2'catchtap='confirm'>确定</button>
+                </cover-view>
+            </cover-view>
+        </cover-view>
+    </cover-view>
+  </camera>
+</view>
+
